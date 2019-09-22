@@ -1,0 +1,258 @@
+body 
+
+{
+  background: url(cloth_alike_@2X.png) repeat top left;
+}
+
+
+header
+
+{ 
+  width: 600px;
+  height: 30px;
+  margin:auto;
+  margin-top: 20px;
+  margin-left: auto;
+  padding-bottom: 50px;
+  background: none;
+
+/*provide a radius to the top left & right corners */
+ -moz-border-radius-topright: 150px;
+ -moz-border-radius-topleft: 150px;
+ -webkit-border-top-left-radius: 150px;
+ -webkit-border-top-right-radius: 150px;
+  border-top-right-radius: 150px;
+  border-top-left-radius: 150px;
+
+
+
+background: -moz-linear-gradient(top,  rgba(255,255,255,0) 6%, rgba(255,255,255,1) 19%, rgba(255,255,255,1) 37%, rgba(255,255,255,1) 55%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(6%,rgba(255,255,255,0)), color-stop(19%,rgba(255,255,255,1)), color-stop(37%,rgba(255,255,255,1)), color-stop(55%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 6%,rgba(255,255,255,1) 19%,rgba(255,255,255,1) 37%,rgba(255,255,255,1) 55%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,0) 6%,rgba(255,255,255,1) 19%,rgba(255,255,255,1) 37%,rgba(255,255,255,1) 55%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,0) 6%,rgba(255,255,255,1) 19%,rgba(255,255,255,1) 37%,rgba(255,255,255,1) 55%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,0) 6%,rgba(255,255,255,1) 19%,rgba(255,255,255,1) 37%,rgba(255,255,255,1) 55%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+
+h1 
+
+{  
+  font-family: kameron, serif;
+  text-align: center;
+  font-size: 20pt;
+  color:#000000;
+  padding: 20px;
+} 
+/*box definition*/
+#opciones
+
+{
+
+  text-align: center;
+  margin:auto;
+  background-color: white;
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 37%, rgba(255,255,255,1) 55%, rgba(255,255,255,1) 57%, rgba(255,255,255,0) 91%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(37%,rgba(255,255,255,1)), color-stop(55%,rgba(255,255,255,1)), color-stop(57%,rgba(255,255,255,1)), color-stop(91%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 37%,rgba(255,255,255,1) 55%,rgba(255,255,255,1) 57%,rgba(255,255,255,0) 91%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(255,255,255,1) 37%,rgba(255,255,255,1) 55%,rgba(255,255,255,1) 57%,rgba(255,255,255,0) 91%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(255,255,255,1) 37%,rgba(255,255,255,1) 55%,rgba(255,255,255,1) 57%,rgba(255,255,255,0) 91%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(255,255,255,1) 37%,rgba(255,255,255,1) 55%,rgba(255,255,255,1) 57%,rgba(255,255,255,0) 91%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+
+ /*provide a radius to the bottom left & right corners */
+  -moz-border-radius-bottomright: 150px;
+  -moz-border-radius-nottomleft: 150px;
+  -webkit-border-bottom-left-radius: 150px;
+  -webkit-border-bottom-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+
+
+  color: none;
+  width: 600px;
+  height: 90px;
+}
+/*display text*/
+#opciones ul li 
+
+{ 
+  display: inline-block; 
+}
+/*definition of text*/
+#opciones ul li a
+
+{
+  padding: 0em 0.5em;
+  display: block;
+  letter-spacing: 1px;
+  line-height: 45px;
+  background-color: transparent;
+  color: White;
+  font-size:15pt;
+  font-weight:normal;
+  font-family: kameron, serif;
+  color:#000000;
+  /* Takes away link underlines */
+  text-decoration: none;
+}
+
+#opciones ul li a:hover
+
+{
+  letter-spacing: 1px;
+  font-weight: bold;
+  background-color: none;
+  color: black;
+}
+
+/*keep the space the same*/
+* 
+{
+    margin:0;
+    padding:0;
+}
+
+#principal
+
+{
+  width:600px;
+  height:auto;
+  margin:auto;
+  background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,0) 91%, rgba(255,255,255,0) 99%); /* FF3.6+ */
+  background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 45%,rgba(255,255,255,0) 91%,rgba(255,255,255,0) 99%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 45%,rgba(255,255,255,0) 91%,rgba(255,255,255,0) 99%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 45%,rgba(255,255,255,0) 91%,rgba(255,255,255,0) 99%); /* IE10+ */
+  background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 45%,rgba(255,255,255,0) 91%,rgba(255,255,255,0) 99%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+#nameandpicture
+{
+  width:500px;
+  height:auto;
+  margin:auto;
+  margin-top: 60px;
+  text-align: center;
+  font-size: 17pt;
+  padding-top: 0.1em ;
+  padding-bottom: 1em ;
+  
+
+}
+#nameandpicture p1
+{
+  background-color: none;
+  text-align: center;
+  font-size: 17pt;
+
+}
+
+#nameandpicture p
+{
+  text-align: center;
+  margin-top: 80px;
+}
+
+#description
+{
+  width:500px;
+  height:auto;
+  margin:auto;
+  margin-top: 200px;
+  text-align: center;
+  padding-top: 1em ;
+  padding-bottom: 1em ;
+}
+
+#description h3
+{
+  font-size: 20pt;
+}
+#description p
+{
+  text-align: left;
+  font-size: 15pt;
+  margin-top: 20px;
+}
+#description h4 h5 h2
+{
+  text-align: center;
+  margin-top: 20px;
+}
+#controls
+{
+  width:500px;
+  height:auto;
+  margin:auto;
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 1em ;
+  padding-bottom: 1em ;
+}
+
+#controls h1
+{
+  font-size: 20pt;
+}
+#controls p
+{
+  text-align: center;
+  font-size: 15pt;
+  margin-top: 10px;
+}
+
+#AudioBus
+{
+  width:500px;
+  height:auto;
+  margin:auto;
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 1em ;
+  padding-bottom: 1em ;
+}
+
+#AudioBus h1
+{
+  font-size: 20pt;
+}
+#AudioBus p
+{
+  text-align: center;
+  font-size: 15pt;
+  margin-top: 20px;
+}
+
+
+
+#evaluation
+{
+  width:500px;
+  height:auto;
+  margin:auto;
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 1em ;
+  padding-bottom: 1em ;
+}
+
+#Effects h2
+{
+  margin-top: 50px;
+  font-size: 15pt;
+  text-align: center;
+}
+
+#Effects h1
+{
+  font-size: 20pt;
+}
+#Effects p
+{
+  text-align: center;
+  font-size: 15pt;
+  margin-top: 20px;
+}
