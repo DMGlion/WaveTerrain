@@ -1,2 +1,2 @@
 # WaveTerrain
-Wave Table
+The aim of this project was to create an usable interface on the multitouch screen of an IPad for the purpose of soniﬁcation via wave tableterrain synthesis. Wave table terrain synthesis can be deﬁned as anaudio waveform created through tracking the height of a large ballrolling in an orbit around a hilly landscape. Altering the orbit of the ball across the terrain the output waveform can be transformedradically. The orbit is usually generated through an elliptical function,in SoundWaveT the soniﬁcation is generated through gestures on thescreen of an IPad
